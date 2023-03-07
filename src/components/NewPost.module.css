@@ -1,0 +1,45 @@
+form {
+  width: 300px;
+  background-color: rgba(207, 203, 203, 0.575);
+  padding: 35px 10px;
+}
+form label {
+  display: block;
+  margin-bottom: 4px;
+}
+form input,
+textarea {
+  width: 100%;
+  padding: 6px 3px;
+  outline: 0.1px solid rgba(124, 121, 121, 0.3);
+  border-radius: 3px;
+  margin-bottom: 15px;
+  resize: none;
+}
+.action {
+  margin-left: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-end;
+}
+.action button {
+  padding: 5px;
+}
+.action .cancel {
+  background-color: rgba(207, 203, 203, 0);
+  border: none;
+  font-size: 12px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.action .submit {
+  font-size: 14px;
+  cursor: pointer;
+  border: 0.1px solid rgba(80, 76, 76, 0.3);
+  border-radius: 3px;
+}
+.action .submit:hover {
+  border: 0.1px solid rgba(80, 76, 76, 0.7);
+  background-color: #fff;
+}
